@@ -1,0 +1,5 @@
+rule_id,jurisdiction,regulatory_domain,if_condition,then_action,aimra_layer,review_requirement,status
+RULE-001,Nigeria,environmental monitoring,environmental_monitoring_submission_date > end_of_quarter + 45 days,compliance_risk_score += 0.15; flag for priority inspection; notify relevant authorities,Layer 3 Human review in Layer 4,legal counsel validation required,illustrative
+RULE-002,Nigeria,revenue verification,declared_production_volume < estimated_production_volume * 0.85,trigger revenue anomaly detection; escalate to human review panel; log audit trail,Layer 3 Human review in Layer 4,requires data-sharing agreement,illustrative
+RULE-003,South Africa,licensing/compliance,inspection_risk_score exceeds configured threshold,prioritise inspection queue and generate audit-ready justification,Layer 2/Layer 3,officer approval required,illustrative
+RULE-004,Generic,accountability,high_stakes_decision == true,route AI output to human review panel and preserve audit trail,Layer 4,mandatory human review,design rule

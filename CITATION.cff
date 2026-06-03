@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+title: "AIMRA: AI-Integrated Mineral Regulatory Architecture Dataset and Reproducibility Package"
+message: "If you use this repository, please cite the associated manuscript and this repository archive."
+type: dataset
+authors:
+  - family-names: Ige
+    given-names: Oladeji O.
+  - family-names: Mora-Camino
+    given-names: Felix
+  - family-names: Olanrewaju
+    given-names: Oludolapo A.
+year: 2026
+version: "1.0.0"
+repository-code: "https://github.com/igeoo/-aimra-mineral-regulatory.git"
+abstract: "Reproducibility package for the African AI-Integrated Mineral Regulatory Architecture (AIMRA), including corpus-access records, governance metric inputs, annotation codebook, statutory rule-encoding examples, and scripts for computing the bounded governance-performance function."
+license: "CC-BY-4.0"
+keywords:
+  - artificial intelligence
+  - mineral resource management
+  - regulatory systems
+  - governance performance
+  - decision intelligence
+  - Africa

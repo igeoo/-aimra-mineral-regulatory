@@ -1,0 +1,11 @@
+corpus_id,corpus_category,jurisdiction,source_type,public_access,redistribution_status,intended_use,access_route_or_url,stage2_requirement
+CR-001,Annual regulatory report,South Africa,government report,public,metadata only,baseline RLI and regulatory latency calibration,DMRE Annual Report 2021/22,obtain case-level enforcement logs
+CR-002,EITI reconciliation report,South Africa,transparency report,public,metadata only,CDR and RLR calibration,EITI South Africa Reconciliation Report 2022,compare inspection records against reconciled discrepancies
+CR-003,Revenue governance index,Africa,multilateral/governance index,public,metadata only,RLR and governance benchmarking,AfDB Revenue Governance Index 2022,document indicator construction and confidence level
+CR-004,Solid minerals annual report,Nigeria,government/transparency report,public,metadata only,Agbabu baseline and solid minerals reconciliation,NEITI Solid Minerals Annual Report 2022,request concession-level and state-level data
+CR-005,Environmental inspection record,Nigeria,state institutional record,restricted,not redistributed,CDR and environmental monitoring validation,Ondo State environmental/mining agencies,formal data-sharing agreement and ethics approval
+CR-006,NUPRC enforcement/case logs,Nigeria,regulatory case record,restricted,not redistributed,RLI and statutory encoding validation,NUPRC or relevant federal/state agencies,formal institutional access route
+CR-007,World Governance Indicators,Global,governance index,public,metadata only,RCS proxy and rule-of-law adjustment,World Bank WGI,replace proxy with decision-register analysis in Stage 2
+CR-008,Alberta regulator records,Canada,public regulator data,public,metadata only,Athabasca benchmark,AER and Canadian public regulatory records,extract comparable indicators and methods
+CR-009,Utah regulatory records,United States,public regulator data,public,metadata only,Utah benchmark,BLM/DOGM Utah public records,improve data confidence and indicator comparability
+CR-010,Orinoco governance sources,Venezuela,public/secondary records,mixed,metadata only,Orinoco benchmark,WGI/PDVSA/secondary governance sources,improve transparency and uncertainty modelling

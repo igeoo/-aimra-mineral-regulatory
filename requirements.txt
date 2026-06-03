@@ -1,0 +1,2 @@
+# No third-party dependencies are required for the core calculations.
+# Scripts use Python 3.10+ standard library only.

@@ -1,0 +1,8 @@
+variable,construct,definition,coding_rule,scale_or_unit,missing_data_rule,quality_control
+RLI,Regulatory latency index,Mean elapsed days between resource-system event and formal management response,RLI_norm = 1 - min(RLI_days/365,1),days and 0-1 normalised score,record NA and justify proxy,second-coder verification of event and response dates
+CDR,Compliance detection rate,Share of actual or independently estimated anomalies formally detected within period,detected anomalies divided by estimated actual anomalies,0-1 score,document denominator uncertainty,compare independent source triangulation
+RLR,Resource value loss ratio,Gap between declared and independently estimated revenue as share of estimated revenue,RLR_norm = 1 - min(RLR,1),ratio and 0-1 normalised score,use range when only estimates exist,source traceability and uncertainty band
+RCS,Regulatory consistency score,Decision stability across comparable regulatory cases,1 - normalised decision variance where data allow,0-1 score,use governance proxy only when case register unavailable,replace proxy during Stage 2
+AAI,Auditability and accountability index,Composite of audit-trail completeness explainability compliance and oversight engagement,average of ATC EC and EOE,0-1 score,mark as estimated if audit system absent,retain audit evidence and coder memo
+G_linear,Composite governance-performance function,Equal-weight aggregate of five normalised indicators,0.20*(RLI_norm+CDR+RLR_norm+RCS+AAI),0-1 score,recompute from components,script-based recalculation
+G_geometric,Nonlinear robustness function,Non-compensatory geometric mean of five normalised indicators,(product of five indicators)^(1/5),0-1 score,undefined if any missing component,script-based recalculation
