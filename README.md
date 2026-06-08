@@ -15,6 +15,7 @@ The package supports the African AI-Integrated Mineral Regulatory Architecture (
 - Scripts for computing the bounded governance-performance function
 - Scripts for nonlinear geometric-mean robustness checks
 - Supplementary annotation/data-access protocol
+- AIMRA supplementary materials (extended cross-sector comparisons, derivation proofs, and sensitivity analyses)
 - Graphical abstract for the AIMRA framework
 
 ## Important scope note
@@ -43,7 +44,8 @@ aimra-mineral-regulatory-ai/
 │       ├── annotation_codebook.csv
 │       └── statutory_rule_encoding.csv
 ├── docs/
-│   └── AIMRA_annotation_protocol_and_data_access.docx
+│   ├── AIMRA_annotation_protocol_and_data_access.docx
+│   └── AIMRA_Supplementary_Materials.docx
 ├── figures/
 │   └── aimra_framework_for_accountable_mineral_governance.png
 ├── scripts/
